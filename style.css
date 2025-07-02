@@ -1,0 +1,62 @@
+    a:link {text-decoration:none; color:purple;}
+    a:visited {text-decoration:none; color:purple;}
+    a:active {text-decoration:none; background-color:yellow; color:black; }
+    a:hover {text-decoration:none; background-color:lightblue; color:black; }
+    .small {font-size:small;}
+    td {font-family:verdana;}
+    td.bold {font-famil:verdana;font-weight:bold; color:purple;}
+    
+    .but { 
+  border: thin solid purple;
+    padding: 2px; 
+  text-align: center;
+  font-family: verdana;
+  background:#eeeeee;
+  color:purple;
+  -moz-border-radius:3px;  
+  font-size: small;
+  }
+
+    .bluebut { 
+  border: thin solid purple;
+    padding: 2px; 
+  text-align: center;
+  font-family: verdana;
+  background:lightblue;
+  color:purple;
+  -moz-border-radius:3px;  
+  font-size: small;
+  }
+
+    .bbut { 
+   border: thin solid purple;
+  padding: 2px; 
+  text-align: center;
+  font-family: verdana;
+  background:#C0C0C0;
+  font-size: x-small;
+  -moz-border-radius:3px;
+  }
+
+  .box {
+  border: thin solid black;
+  background: #eeeeee;
+  -moz-border-radius: 10px;   
+  }
+
+  .Pbox {
+  border: thin solid black;
+  background: #eeeeee;
+  padding:1em;
+  text-align:left;
+  font-family:verdana;
+  font-size:small;
+  -moz-border-radius: 10px;   
+  }
+  
+  .BIG {
+   -moz-border-radius: 10px;
+   background:#9090D0;
+   width:700px;
+   padding-top:.125in;
+  }
