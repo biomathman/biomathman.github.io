@@ -4,11 +4,14 @@
 	<style>
       body {background-image: url('img/butterfly-small.png')}</style>
 </style>
+  <link href="style.css" rel="stylesheet" type="text/css">
+
 </head>
 <body>
 
   <div style="width:500px; padding: 10px; margin-left: auto; margin-right: auto; background: white;">
 <h1> Lorenz Butterfly in Python</h1>
+
 If you are new to python, the easiest ways to run this program are to either
 <ul>
 <li><b>Using a Jupyter notebook (incuding Anaconda and Jupyter-Lab)</b>: copy the entire code block into a single
@@ -25,11 +28,18 @@ libraries such as numpy, scipy, or matplotlib; or they are not installed.
 Check with your system manager.
 </div>
 
- 
+ <p><center>
+      <div style="padding:1em;margin-left: auto; margin-right: auto; ">
+        <a class="but" style="font-size:medium;" href="code/butterfly.py">Just the Code, Please</a> &nbsp;
+        <a class="but" style="font-size:medium;"  href="code/butterfly-picture.jpeg">Output</a> &nbsp; 
+        <a class="but" style="font-size:medium;"  href="code/license.txt">EULA<a> 
+	</div>
+	</center></p>
 
 <div style="width:fit-content; margin-left: auto;
   margin-right: auto;
-  max-width: fit-content;  background: #eeeeee;">
+  max-width: fit-content;  background: #eeeeee; padding: 10px; 
+  border: 2px solid; ">
 
   
  <pre><code>
@@ -89,10 +99,10 @@ x,y,z = result.T
 plt.plot(x,z)
 fig=plt.gcf()
 #
-# change file type to save to to other formats, 
+# change file type to save to other formats, 
 # or comment out to merely display
 #
-fig.savefig("butterfly-picture.jpg")
+fig.savefig("butterfly-picture.jpeg")
 #
 # this line is required to display the plot on the screen
 #
